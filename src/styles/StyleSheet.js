@@ -38,4 +38,11 @@ const styles = StyleSheet.create({
   },
 });
 
-export default styles;
+const test = StyleSheet.create({
+  container: {
+    flex: 2,
+  },
+  
+export default {
+  styles,
+  test, }
