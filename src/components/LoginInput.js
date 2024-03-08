@@ -4,7 +4,9 @@ import styles from "../styles/StyleSheet";
 export default function LoginInput() {
   return (
     <View style={styles.container}>
+    
       {/* Caixas de textos */}
+      
       <TextInput
         style={styles.inputName}
         placeholder="Digite o seu email"

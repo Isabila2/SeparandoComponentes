@@ -12,10 +12,8 @@ import styles from "./src/styles/StyleSheet";
 
 export default function App() {
   return (
-    <View style={styles.container}>
       <View style={styles.secondaryContainer}>
         <Login />
       </View>
-    </View>
   );
 }

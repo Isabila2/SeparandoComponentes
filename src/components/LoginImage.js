@@ -19,8 +19,8 @@ export default function LoginImage() {
             {
               alignItems: "center",
               justifyContent: "center",
-              marginLeft: 50,
-              marginTop: -80,
+              marginLeft: 30,
+              marginTop: -10,
             },
           ]}
           resizeMode="cover"

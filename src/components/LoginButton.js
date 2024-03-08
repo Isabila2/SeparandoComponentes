@@ -1,5 +1,6 @@
-import { View, Button } from "react-native";
+import { View, Text, Pressable } from "react-native";
 import styles from "../styles/StyleSheet";
+import { TouchableOpacity } from "react-native-web";
 
 export default function LoginButton() {
   pressButton = () => {
@@ -7,11 +8,8 @@ export default function LoginButton() {
   };
 
   return (
-    <View style={styles.container}>
-      {/* Botão de 'Click here' */}
-      <View style={{ margin: 20, height: 50 }}>
-        <Button onPress={pressButton} title="Click here" color="black" />
-      </View>
-    </View>
+        <TouchableOpacity style={styles.btn} onPress={pressButton}>
+          <Text style={styles.textButton}>Click here</Text>
+        </TouchableOpacity>
   );
 }

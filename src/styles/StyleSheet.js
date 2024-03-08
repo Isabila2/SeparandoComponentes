@@ -7,8 +7,6 @@ const styles = StyleSheet.create({
   secondaryContainer: {
     flex: 1,
     width: "100%",
-    justifyContent: "center",
-    alignItems: "center",
   },
   inputName: {
     height: 60,
@@ -27,8 +25,13 @@ const styles = StyleSheet.create({
     marginTop: 130,
   },
   img: {
+    flex: 1,
+    
     width: "100%",
     height: "100%",
+
+    justifyContent: "center",
+    alignItems: "center",
   },
   logo: {
     width: 220,
@@ -36,7 +39,24 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
+  textButton: {
+    color: "white",
+    fontSize: 20,
+    textAlign: "center",
+  },
+  btn: {
+    width: 300,
+    backgroundColor: "#2a2b2b",
+    borderWidth: 1,
+    borderColor: "#2a2b2b",
+    height: 40,
+    borderRadius: 10,
+    justifyContent: "center",
+    shadowColor: "#000000",
+    shadowOffset: {width: 0, height: 2},
+    shadowOpacity: 0.8,
+    shadowRadius: 20,
+  },
 });
 
-  
 export default styles;
