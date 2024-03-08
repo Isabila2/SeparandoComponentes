@@ -1,30 +1,11 @@
 import { View, ImageBackground } from "react-native";
-{
-  /* Chamando LoginText */
-}
-import LoginText from "../components/LoginText";
-
-{
-  /* Chamando LoginInput */
-}
-import LoginInput from "../components/LoginInput";
-
-{
-  /* Chamando Button */
-}
-import LoginButton from "../components/LoginButton";
-
-{
-  /* Chamando Imagem */
-}
-import LoginImage from "../components/LoginImage";
 
 {
   /* Chamando Styles */
 }
 import styles from "../styles/StyleSheet";
 
-export default function LoginBackground({children}) {
+export default function LoginBackground({ children }) {
   return (
     <View style={styles.container}>
       {/* Imagem de fundo */}
