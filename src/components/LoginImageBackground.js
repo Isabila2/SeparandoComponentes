@@ -24,7 +24,7 @@ import LoginImage from "../components/LoginImage";
 }
 import styles from "../styles/StyleSheet";
 
-export default function LoginBackground() {
+export default function LoginBackground({children}) {
   return (
     <View style={styles.container}>
       {/* Imagem de fundo */}
@@ -32,14 +32,7 @@ export default function LoginBackground() {
         source={require("../assets/images/fundo.png")}
         style={styles.img}
       >
-        {/* Texto */}
-        <LoginText />
-        {/* Input */}
-        <LoginInput />
-        {/* Button */}
-        <LoginButton />
-        {/* Imagem */}
-        <LoginImage />
+        {children}
       </ImageBackground>
     </View>
   );
